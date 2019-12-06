@@ -23,6 +23,7 @@ export class ApiParamsValidatePipe implements PipeTransform {
   }
 
   async transform(value: any, { metatype }: ArgumentMetadata) {
+    console.log('aha run me');
     if (!metatype || !this.needValidate(metatype)) {
       return value;
     }
