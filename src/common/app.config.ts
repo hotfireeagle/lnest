@@ -6,3 +6,5 @@
 export const MONGODB = {
   url: 'mongodb://127.0.0.1:27017/lnest',
 };
+
+export const jwtKey = 'THIS IS A DEMO SO I CHOSE ROOT';
